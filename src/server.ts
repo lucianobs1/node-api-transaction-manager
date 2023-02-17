@@ -21,4 +21,4 @@ app
   .listen({
     port: env.PORT,
   })
-  .then(() => console.log('✨ Server is running ✨'))
+  .then(() => console.log(`✨ Server is running on PORT: ${env.PORT} ✨`))
